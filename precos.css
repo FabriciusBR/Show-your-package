@@ -1,17 +1,17 @@
 
 header{
-    height: 100px;
+    height: 150px;
 }
 h1#cabecalhoh1{
     text-align: center; 
     font-family:sans-serif;
-    font-size:20pt;
+    font-size:30pt;
     margin-top: 40px;
 }
 h2#cabecalhoh2{
     text-align: center;
     font-family:sans-serif;
-    font-size:10pt;
+    font-size:20pt;
     margin-top: -15px;
 }
 div#principal{
@@ -76,19 +76,55 @@ ol{
 #botao1{
     background-color: rgb(145,195,106);
     color: white;
+    cursor: pointer;
 }
-    
+
 #botao2{
     background-color: rgb(74,201,252);
     color: white;
+    cursor: pointer;
 }
 #botao3{
     background-color:  rgb(252,123,4);
     color: white;
+    cursor: pointer;
 }
 .box:hover{   
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+    border-color: rgb(145,195,106);
 }
+#basic:hover li{
+    color:rgb(145,195,106);
+}
+#professional:hover li{
+    color:rgb(74,201,252);
+}
+#advanced:hover li{
+    color:rgb(252,123,4);
+}
+#basic:hover h1{
+    color:rgb(145,195,106);
+}
+#professional:hover h1{
+    color:rgb(74,201,252);
+}
+#advanced:hover h1{
+    color:rgb(252,123,4);
+}
+#basic:hover {
+    border-color: rgb(145,195,106);
+    box-shadow: 0px 1px 1px 1px rgb(145,195,106);
+}
+#professional:hover {
+    border-color: rgb(74,201,252);
+    box-shadow: 0px 1px 1px 1px rgb(174,201,252);
+}
+#advanced:hover {
+    border-color:rgb(252,123,4);
+    box-shadow: 0px 1px 1px 1px rgb(252,123,4);
+}
+
+
 
